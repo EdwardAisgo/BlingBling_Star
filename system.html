@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="/myweb/src/css/layui.css">
+</head>
+<body>
+<ul class="layui-nav layui-nav-tree layui-nav-side" id="L_demoNav" lay-filter="test">
+    <li class="layui-nav-item layui-nav-itemed">
+        <a href="javascript:;">系统管理员</a>
+        <dl class="layui-nav-child">
+            <dd class="layui-this"><a href="javascript:;">参数配置</a></dd>
+        </dl>
+    </li>
+</ul>
+<div class="layui-body layui-tab-content">
+    <form class="layui-form-item">
+        <div class="layui-inline">
+            <label class="layui-form-label">报名开始时间</label>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" class="layui-input" id="emlistStart">
+            </div>
+        </div>
+        <div class="layui-inline">
+            <label class="layui-form-label">报名结束时间</label>
+            <div class="layui-input-inline" style="width: 100px;">
+                <input type="text" class="layui-input" id="emlistEnd">
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+<script src="/myweb/src/layui.js"></script>
+<script>
+    layui.use('laydate', function(){
+        var laydate = layui.laydate;
+
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#emlistStart' //指定元素
+        });
+        //执行一个laydate实例
+        laydate.render({
+            elem: '#emlistEnd' //指定元素
+        });
+    });
+</script>
+</html>
