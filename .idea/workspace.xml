@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="69162709-f699-46ee-8dfb-b498b822268c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/jigsaw" beforeDir="false" afterPath="$PROJECT_DIR$/jigsaw" afterDir="false" />
-    </list>
+    <list default="true" id="69162709-f699-46ee-8dfb-b498b822268c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -83,11 +81,12 @@
       <workItem from="1532928383331" duration="8000" />
       <workItem from="1532928758907" duration="714000" />
       <workItem from="1532933996360" duration="23000" />
+      <workItem from="1532934494414" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="878000" />
+    <option name="totallyTimeSpent" value="884000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="953" extended-state="0" />
